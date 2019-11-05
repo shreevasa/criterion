@@ -1,0 +1,30 @@
+uuid: 20e02de1-ae80-4d8e-ae64-79bb22b1f2ef
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_audience
+field_name: field_audience
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: marketing
+      label: marketing
+    -
+      value: freelancing
+      label: freelancing
+    -
+      value: 'data mining'
+      label: 'data mining'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

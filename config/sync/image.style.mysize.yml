@@ -1,0 +1,14 @@
+uuid: 082dcbbd-dbde-42d0-a1a7-5225e9b02197
+langcode: en
+status: true
+dependencies: {  }
+name: mysize
+label: mySize
+effects:
+  d6c3ef55-49ec-47af-b0fe-50affb5d5241:
+    uuid: d6c3ef55-49ec-47af-b0fe-50affb5d5241
+    id: image_resize
+    weight: 1
+    data:
+      width: 650
+      height: 450

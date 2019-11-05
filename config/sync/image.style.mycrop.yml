@@ -1,0 +1,20 @@
+uuid: a4b9cbd3-a5ce-474a-9b0f-cd3d8d22f4c3
+langcode: en
+status: true
+dependencies: {  }
+name: mycrop
+label: mycrop
+effects:
+  91309f6f-e6c8-4bf0-8a25-8eecfe62d51b:
+    uuid: 91309f6f-e6c8-4bf0-8a25-8eecfe62d51b
+    id: image_crop
+    weight: 1
+    data:
+      width: 350
+      height: 250
+      anchor: center-center
+  9db1cd25-e7e7-485c-ac01-a1884522abdd:
+    uuid: 9db1cd25-e7e7-485c-ac01-a1884522abdd
+    id: image_desaturate
+    weight: 2
+    data: {  }

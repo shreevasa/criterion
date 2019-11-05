@@ -1,0 +1,18 @@
+uuid: f103d1c1-093a-491f-a03d-0c40c599da94
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Venue
+type: venue
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true
