@@ -7,9 +7,9 @@
 /web/profiles/contrib/
 /web/libraries/
 #IGNORE GOOGLE ANALYTICS
-/config/sync/google_analytics.settings.yml
+#/config/sync/google_analytics.settings.yml
 #ignore shield
-/config/sync/shield.settings.yml
+#/config/sync/shield.settings.yml
 
 # Ignore sensitive information
 /web/sites/*/settings.php

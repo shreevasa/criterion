@@ -1,9 +1,10 @@
-uuid: edcdda07-6da1-490b-9309-8763df5a4f1a
+uuid: 5356c803-7189-41c8-a61f-6a7b0b8b1216
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.node.update.body
+    - field.field.node.update.field_update
     - node.type.update
   module:
     - path
@@ -28,6 +29,14 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_update:
+    weight: 122
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
   path:
     type: path
     weight: 30

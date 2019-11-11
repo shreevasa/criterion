@@ -1,4 +1,4 @@
-uuid: b6a67c49-0431-4656-8c06-7951706ea417
+uuid: 0c76b928-a913-4428-acbd-0ff626bb934d
 langcode: en
 status: open
 dependencies: {  }
@@ -14,7 +14,7 @@ id: registration
 title: Registration
 description: ''
 category: ''
-elements: "personal_information:\n  '#title': 'Your Personal Information'\n  '#type': webform_section\n  first_name:\n    '#title': 'First Name'\n    '#type': textfield\n    '#required': true\n  last_name:\n    '#title': 'Last Name'\n    '#type': textfield\n    '#required': true\ncontact_information:\n  '#title': 'Your Contact Information'\n  '#type': webform_section\n  contact:\n    '#type': webform_contact\n    '#title': Contact\n    '#title_display': invisible\n    '#name__access': false\n    '#company__access': false\nmailinglist:\n  '#title': 'Mailing List'\n  '#type': webform_section\n  subscribe:\n    '#title': 'Please subscribe me to your mailing list.'\n    '#type': checkbox\nadditional_information:\n  '#title': 'Additional Information'\n  '#type': webform_section\n  '#open': true\n  notes:\n    '#title': Comments\n    '#type': textarea\nactions:\n  '#type': webform_actions\n  '#title': 'Submit button(s)'\n  '#submit__label': Register\n"
+elements: "personal_information:\n  '#title': 'Your Personal Information'\n  '#type': webform_section\n  first_name:\n    '#title': 'First Name'\n    '#type': textfield\n    '#required': true\n  last_name:\n    '#title': 'Last Name'\n    '#type': textfield\n    '#required': true\ncontact_information:\n  '#title': 'Your Contact Information'\n  '#type': webform_section\n  contact:\n    '#type': webform_contact\n    '#title': Contact\n    '#title_display': invisible\n    '#name__access': false\n    '#company__access': false\nmailinglist:\n  '#title': 'Mailing List'\n  '#type': webform_section\n  subscribe:\n    '#title': 'Please subscribe me to your mailing list.'\n    '#type': checkbox\nadditional_information:\n  '#title': 'Additional Information'\n  '#type': webform_section\n  '#open': true\n  notes:\n    '#title': Comments\n    '#type': textarea\nactions:\n  '#type': webform_actions\n  '#title': 'Submit button(s)'\n  '#submit__label': Register"
 css: ''
 javascript: ''
 settings:

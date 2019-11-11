@@ -1,9 +1,10 @@
-uuid: e7dc27ab-a548-4ddc-bd40-d53fb2aa0710
+uuid: 5784727b-2ad0-4291-bd63-bef106b46082
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.node.update.body
+    - field.field.node.update.field_update
     - node.type.update
   module:
     - text
@@ -19,6 +20,13 @@ content:
     weight: 101
     settings: {  }
     third_party_settings: {  }
+    region: content
+  field_update:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
     region: content
   links:
     weight: 100

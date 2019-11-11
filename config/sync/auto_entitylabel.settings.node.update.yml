@@ -1,6 +1,0 @@
-status: 1
-pattern: ''
-escape: false
-dependencies:
-  config:
-    - node.type.update

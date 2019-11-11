@@ -1,4 +1,4 @@
-uuid: 727a363a-4015-494e-931d-5a2f2c833a09
+uuid: c25f6168-e677-40f6-9fd9-c996a34b3e8b
 langcode: en
 status: true
 dependencies: {  }
@@ -7,7 +7,7 @@ _core:
 id: feedback
 label: 'Website feedback'
 recipients:
-  - shreevasa@specbee.com
+  - varun@specbee.com
 reply: ''
 weight: 0
 message: 'Your message has been sent.'

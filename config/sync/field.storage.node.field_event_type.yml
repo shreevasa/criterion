@@ -1,4 +1,4 @@
-uuid: f223c31d-312c-4162-9e77-ccccd0f33d4a
+uuid: 39cff699-ac70-4969-9ed4-9df971cf0335
 langcode: en
 status: true
 dependencies:
@@ -12,14 +12,14 @@ type: list_string
 settings:
   allowed_values:
     -
-      value: fundriser
-      label: fundriser
+      value: Fundriser
+      label: Fundriser
     -
-      value: cahrity
-      label: cahrity
+      value: Charity
+      label: Charity
     -
-      value: other
-      label: other
+      value: Other
+      label: Other
   allowed_values_function: ''
 module: options
 locked: false

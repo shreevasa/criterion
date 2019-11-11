@@ -1,4 +1,4 @@
-uuid: 20e02de1-ae80-4d8e-ae64-79bb22b1f2ef
+uuid: 135e5a0e-d8b9-440f-ac19-441518d25a1d
 langcode: en
 status: true
 dependencies:
@@ -8,18 +8,9 @@ dependencies:
 id: node.field_audience
 field_name: field_audience
 entity_type: node
-type: list_string
+type: list_float
 settings:
-  allowed_values:
-    -
-      value: marketing
-      label: marketing
-    -
-      value: freelancing
-      label: freelancing
-    -
-      value: 'data mining'
-      label: 'data mining'
+  allowed_values: {  }
   allowed_values_function: ''
 module: options
 locked: false
